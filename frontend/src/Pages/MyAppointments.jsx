@@ -23,15 +23,15 @@ const Appointment = () => {
     const getAvailableSlots = async () => {
         setDocSlots([])
 
-        // getting current date
+        
         let today = new Date()
 
         for (let i = 0; i < 7; i++) {
-            // getting date with index 
+        
             let currentDate = new Date(today)
             currentDate.setDate(today.getDate() + i)
 
-            // setting end time of the date with index
+            
             let endTime = new Date()
             endTime.setDate(today.getDate() + i)
             endTime.setHours(21, 0, 0, 0)

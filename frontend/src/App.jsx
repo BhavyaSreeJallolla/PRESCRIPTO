@@ -5,11 +5,11 @@ import Home from './pages/Home'
 import Doctors from './pages/Doctors'
 import Login from './pages/Login'
 import About from './pages/About'
-import Contact from './pages/Contact'
+import Contact from './Pages/Contact'
 import Appointment from './Pages/MyAppointment'
 import MyAppointments from './pages/MyAppointments'
 import MyProfile from './pages/MyProfile'
-import Footer from './components/Footer'
+import Footer from './Components/Footer'
 
 const App = () => {
   
